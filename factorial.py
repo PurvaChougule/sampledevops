@@ -1,8 +1,5 @@
 def factorial(x):
-    if x == 1 or x == 0:
-        return 1
-    else:
-        return (x * factorial(x-1))
-num = 7
-result = factorial(num)
-print("The factorial of", num, "is", result)
+	return 1 if (n==1 or n==0) else n*factorial(n-1)
+num-5
+print("factorial of",num,"is",factorial(num))
+
